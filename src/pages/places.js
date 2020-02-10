@@ -1,12 +1,12 @@
 import React from 'react';
 import Layout from '../components/Layout';
 
-const Home = () => {
+const Places = () => {
   return (
     <Layout>
-      <p>Index page</p>
+      <>Places page</>
     </Layout>
   );
 };
 
-export default Home;
+export default Places;

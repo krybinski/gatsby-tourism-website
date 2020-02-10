@@ -1,12 +1,12 @@
 import React from 'react';
 import Layout from '../components/Layout';
 
-const Home = () => {
+const error = () => {
   return (
     <Layout>
-      <p>Index page</p>
+      <>Error page</>
     </Layout>
   );
 };
 
-export default Home;
+export default error;

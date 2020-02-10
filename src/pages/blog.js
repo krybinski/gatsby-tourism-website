@@ -1,12 +1,12 @@
 import React from 'react';
 import Layout from '../components/Layout';
 
-const Home = () => {
+const Blog = () => {
   return (
     <Layout>
-      <p>Index page</p>
+      <>Blog page</>
     </Layout>
   );
 };
 
-export default Home;
+export default Blog;
