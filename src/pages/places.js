@@ -18,9 +18,7 @@ export const query = graphql`
 const Places = ({ data }) => {
   return (
     <Layout>
-      <StyledHero img={data.defaultBcg.childImageSharp.fluid}>
-        Places page
-      </StyledHero>
+      <StyledHero img={data.defaultBcg.childImageSharp.fluid} />
     </Layout>
   );
 };

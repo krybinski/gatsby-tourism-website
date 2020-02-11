@@ -18,9 +18,7 @@ export const query = graphql`
 const Blog = ({ data }) => {
   return (
     <Layout>
-      <StyledHero img={data.blogBcg.childImageSharp.fluid}>
-        Blog page
-      </StyledHero>
+      <StyledHero img={data.blogBcg.childImageSharp.fluid} />
     </Layout>
   );
 };
