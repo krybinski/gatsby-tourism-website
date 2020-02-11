@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
+import AniLink from 'gatsby-plugin-transition-link/AniLink';
 import Layout from '../components/Layout';
 import StyledHero from '../components/StyledHero';
 import Banner from '../components/Banner';
@@ -26,9 +27,9 @@ const Home = ({ data }) => {
           title="Tourism website"
           info="Welcome on one of the bigges tourism websites worldwide."
         >
-          <Link to="/places" className="btn-white">
+          <AniLink paintDrip hex="#0984e3" to="/places" className="btn-white">
             explore places
-          </Link>
+          </AniLink>
         </Banner>
       </StyledHero>
       <About />
